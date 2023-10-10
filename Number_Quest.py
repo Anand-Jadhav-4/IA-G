@@ -10,6 +10,8 @@
 # This code takes three 4-digit integer inputs, performs operations on them, and provides a final summary of the inputs and results, including an ASCII art representation.
 
 
+![Number Quest Logo](Number%20Quest%20logo.jpg)
+![Number Quest Output](Number%20Quest%20output.jpg)
 
 
 # Get the first integer input from the user
