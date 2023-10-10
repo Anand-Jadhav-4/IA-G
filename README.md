@@ -10,7 +10,7 @@ If you have a Python code snippet, script, or project that you think is interest
 2. Clone your forked repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/IA-G.git
+git clone https://github.com/akasumitlamba/IA-G.git
 ```
 
 3. Create a new branch for your contribution:
@@ -51,7 +51,7 @@ To ensure that IA-G remains a fun and educational resource, please follow these 
 
 We encourage you to engage with the IA-G community:
 
-- Feel free to discuss and share ideas in the [Issues](https://github.com/your-username/IA-G/issues) section.
+- Feel free to discuss and share ideas in the [Issues](https://github.com/akasumitlamba/IA-G/issues) section.
 - If you find a code snippet interesting or helpful, leave a star ⭐️ to show your appreciation.
 - Help review and improve contributions through thoughtful comments on pull requests.
 
