@@ -7,6 +7,7 @@ Welcome to the IA-G (Interesting Code - for Fun) repository! This is a place whe
 If you have a code snippet, script, or project that you think is interesting and fun, feel free to contribute it to IA-G. Here's how you can do it:
 
 1. Fork this repository by clicking the "Fork" button in the top right corner.
+
 2. Clone your forked repository to your local machine:
 
 ```bash
@@ -38,6 +39,8 @@ git push origin your-branch-name
 
 8. Create a pull request (PR) from your forked repository to the main IA-G repository. Be sure to provide a descriptive title and detailed information about your contribution in the PR description.
 
+Before you get started, please review the [CONTRIBUTING GUIDELINES](contributing.md) and [CODE OF CONDUCT](CodeOfConduct.md) files to understand the guidelines and standards for contributing.
+
 ## Code Guidelines
 
 To ensure that IA-G remains a fun and educational resource, please follow these guidelines when contributing:
@@ -61,4 +64,4 @@ The IA-G repository is meant for fun and educational purposes. The code snippets
 Let's explore the fascinating world of programming together and create a collection of interesting and fun code snippets in various programming languages! Happy coding! 🚀✨
 ```
 
-This revised README.md file now welcomes code contributions in any programming language.
+This updated README.md now includes a section requesting users to review the CONTRIBUTING.md and CODE_OF_CONDUCT.md files before contributing.
