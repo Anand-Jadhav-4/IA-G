@@ -1,5 +1,3 @@
-
-```markdown
 # IA-G Repository
 
 Welcome to the IA-G (Interesting Code - for Fun) repository! This is a place where you can contribute and discover random code snippets for fun and exploration in any programming language. Whether you're a seasoned developer or just getting started, this repository is open to everyone who wants to share interesting code snippets, experiments, or small projects.
