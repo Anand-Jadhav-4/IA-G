@@ -44,6 +44,6 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 ## Read and Understand
 
-By participating in this project, contributors agree to abide by this Code of Conduct. Please read the [README.md](README.md) and [CONTRIBUTING.md](CONTRIBUTING.md) files for more information on the project's code of conduct and the process for submitting pull requests.
+By participating in this project, contributors agree to abide by this Code of Conduct. Please read the [README.md](README.md) and [contributing.md](contributing.md) files for more information on the project's code of conduct and the process for submitting pull requests.
 
 Thank you for your cooperation and making IA-G a welcoming and inclusive space for all contributors.
