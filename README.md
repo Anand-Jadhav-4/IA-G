@@ -1,10 +1,10 @@
 # IA-G Repository
 
-Welcome to the IA-G (Interesting Python Codes - for Fun) repository! This is a place where you can contribute and discover random Python code snippets for fun and exploration. Whether you're a seasoned Python developer or just getting started, this repository is open to everyone who wants to share interesting Python code snippets, experiments, or small projects.
+Welcome to the IA-G (Interesting Code - for Fun) repository! This is a place where you can contribute and discover random code snippets for fun and exploration in any programming language. Whether you're a seasoned developer or just getting started, this repository is open to everyone who wants to share interesting code snippets, experiments, or small projects.
 
 ## How to Contribute
 
-If you have a Python code snippet, script, or project that you think is interesting and fun, feel free to contribute it to IA-G. Here's how you can do it:
+If you have a code snippet, script, or project that you think is interesting and fun, feel free to contribute it to IA-G. Here's how you can do it:
 
 1. Fork this repository by clicking the "Fork" button in the top right corner.
 2. Clone your forked repository to your local machine:
@@ -19,7 +19,7 @@ git clone https://github.com/akasumitlamba/IA-G.git
 git checkout -b your-branch-name
 ```
 
-4. Add your Python code snippet or project to the appropriate directory. You can create a new directory if necessary.
+4. Add your code snippet or project to the appropriate directory. You can create a new directory if necessary.
 
 5. Write a clear and informative README.md file for your contribution. Include a brief description of what your code does, how to use it, and any dependencies.
 
@@ -27,7 +27,7 @@ git checkout -b your-branch-name
 
 ```bash
 git add .
-git commit -m "Add my awesome Python code"
+git commit -m "Add my awesome code"
 ```
 
 7. Push your changes to your forked repository:
@@ -42,8 +42,7 @@ git push origin your-branch-name
 
 To ensure that IA-G remains a fun and educational resource, please follow these guidelines when contributing:
 
-- Your code should be written in Python.
-- Ensure your code is well-documented and easy to understand.
+- Your code should be well-documented and easy to understand.
 - Avoid adding large dependencies or external libraries unless necessary.
 - Be respectful and considerate of other contributors.
 
@@ -59,4 +58,7 @@ We encourage you to engage with the IA-G community:
 
 The IA-G repository is meant for fun and educational purposes. The code snippets and projects shared here may not be suitable for production use and should be used with caution.
 
-Let's explore the fascinating world of Python together and create a collection of interesting and fun Python code snippets! Happy coding! 🐍✨
+Let's explore the fascinating world of programming together and create a collection of interesting and fun code snippets in various programming languages! Happy coding! 🚀✨
+```
+
+This revised README.md file now welcomes code contributions in any programming language.
