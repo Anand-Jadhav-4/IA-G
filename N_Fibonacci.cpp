@@ -2,10 +2,8 @@
 #include<numeric>
 #include<math.h>
 using namespace std;
-
 const int INF = 1e9; // Initialize a constant for infinity
 const int N = 1e7+3;
-
 int main()
 {
     int n, m; 
@@ -23,18 +21,13 @@ int main()
         curr_sum -= arr[k]; // Subtract the element that is n steps back
         k++; // Increment k to track the current position
     }
-
     for (int i = 0; i < m; i++)
     {
         cout << arr[i] << " "; // Output the Fibonacci series
     }
-    
     return 0;
 }
-
-
-
- // Approach:
+ // Approach of the program :
     // 1. Initialize the array with zeros for the first n-1 elements.
     // 2. Set the nth element of the array to 1, which is the starting point of the Fibonacci series.
     // 3. Initialize a variable curr_sum to 1.
