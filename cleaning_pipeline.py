@@ -11,25 +11,7 @@ from scipy import stats
 import warnings
 warnings.filterwarnings('ignore')
 
-class DataCleaningPipeline:
-    def __init__(self):
-        self.scalers = {}
-        self.cleaning_params = {}
-        
-    def detect_missing_values(self, df, threshold=0.5):
-        """
-        Detect missing values and return summary
-        """
-        missing_summary = {
-            'total_missing': df.isnull().sum().sum(),
-            'missing_percentage': (df.isnull().sum().sum() / (df.shape[0] * df.shape[1])) * 100,
-            'columns_with_missing': df.isnull().sum()[df.isnull().sum() > 0].to_dict(),
-            'columns_missing_percentage': (df.isnull().sum() / len(df) * 100).to_dict()
-        }
-        
-        # Identify columns with high missing percentage
-        high_missing_cols = [col for col in df.columns 
-                           if (df[col].isnull().sum() / len(df)) > threshold]
+                      if (df[col].isnull().sum() / len(df)) > threshold]
         
         missing_summary['high_missing_columns'] = high_missing_cols
         
