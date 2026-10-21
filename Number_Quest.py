@@ -36,23 +36,7 @@ if len(user_input1) == 4 and user_input1.isdigit():
 
     print(f"My guess of Final answer: {result_string1}")
     
-    # Get the second 4-digit integer input from the user
-    user_input2 = input("Enter another 4-digit integer: ")
-    
-    # Check if the second input has exactly 4 digits
-    if len(user_input2) == 4 and user_input2.isdigit():
-        # Subtract each digit separately from 9 for the second input
-        result2 = ""
-        for digit in user_input2:
-            result2 += str(9 - int(digit))
-        
-        print(f"My selection: {result2}")
-    else:
-        print("Invalid second input. Please enter a 4-digit integer.")
-    
-    # Get the third 4-digit integer input from the user
-    user_input3 = input("Enter one more 4-digit integer: ")
-    
+ 
     # Check if the third input has exactly 4 digits
     if len(user_input3) == 4 and user_input3.isdigit():
         # Subtract each digit separately from 9 for the third input
