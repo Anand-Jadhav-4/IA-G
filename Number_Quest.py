@@ -22,22 +22,6 @@
 
 # Get the first integer input from the user
 user_input1 = input("Please enter a 4-digit integer: ")
-
-# Check if the input has exactly 4 digits
-if len(user_input1) == 4 and user_input1.isdigit():
-    # Convert the input to an integer
-    user_integer1 = int(user_input1)
-
-    # Subtract 2 from the first input
-    result_integer1 = user_integer1 - 2
-
-    # Add "2" in front of the result
-    result_string1 = "2" + str(result_integer1)
-
-    print(f"My guess of Final answer: {result_string1}")
-    
- 
-    # Check if the third input has exactly 4 digits
     if len(user_input3) == 4 and user_input3.isdigit():
         # Subtract each digit separately from 9 for the third input
         result3 = ""
