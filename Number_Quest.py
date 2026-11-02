@@ -30,17 +30,4 @@ user_input1 = input("Please enter a 4-digit integer: ")
         
         print(f"My selection: {result3}")
     else:
-        print("Invalid third input. Please enter a 4-digit integer.")
-
-    # Display the desired message
-    print(f"{user_input1} + {user_input2} + {result2} + {user_input3} + {result3} = {result_string1} which was the final answer")
-    print("""
-.__  __ /\                               .__        
-|__|/  |)/ ______   _____ _____     ____ |__| ____  
-|  \   __\/  ___/  /     \\__  \   / ___\|  |/ ___\ 
-|  ||  |  \___ \  |  Y Y  \/ __ \_/ /_/  >  \  \___ 
-|__||__| /____  > |__|_|  (____  /\___  /|__|\___  >
-              \/        \/     \//_____/         \/ 
-""")
-else:
-    print("Invalid first input. Please enter a 4-digit integer.")
+        prin
