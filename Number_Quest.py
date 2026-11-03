@@ -21,13 +21,3 @@
 
 
 # Get the first integer input from the user
-user_input1 = input("Please enter a 4-digit integer: ")
-    if len(user_input3) == 4 and user_input3.isdigit():
-        # Subtract each digit separately from 9 for the third input
-        result3 = ""
-        for digit in user_input3:
-            result3 += str(9 - int(digit))
-        
-        print(f"My selection: {result3}")
-    else:
-        prin
