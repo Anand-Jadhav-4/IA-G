@@ -4,16 +4,7 @@
 #   Encrypt: python aes_gcm.py encrypt "Hello Wahyu" "my-strong-password"
 #   Decrypt: python aes_gcm.py decrypt <b64_salt> <b64_nonce> <b64_ciphertext> "my-strong-password"
 
-import os
-import sys
-import base64
-from typing import Tuple
-from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
-from cryptography.hazmat.primitives import hashes
-from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
-SALT_LEN = 16
-NONCE_LEN = 12
 KEY_LEN = 32         # 256-bit
 PBKDF2_ITERS = 200_000
 
