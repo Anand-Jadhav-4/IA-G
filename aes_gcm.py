@@ -5,24 +5,7 @@
 #   Decrypt: python aes_gcm.py decrypt <b64_salt> <b64_nonce> <b64_ciphertext> "my-strong-password"
 
 
-KEY_LEN = 32         # 256-bit
-PBKDF2_ITERS = 200_000
 
-def b64e(b: bytes) -> str:
-    return base64.b64encode(b).decode("utf-8")
-
-def b64d(s: str) -> bytes:
-    return base64.b64decode(s.encode("utf-8"))
-
-def derive_key(password: str, salt: bytes) -> bytes:
-    """Derive 256-bit key from password using PBKDF2-HMAC-SHA256."""
-    kdf = PBKDF2HMAC(
-        algorithm=hashes.SHA256(),
-        length=KEY_LEN,
-        salt=salt,
-        iterations=PBKDF2_ITERS,
-    )
-    return kdf.derive(password.encode("utf-8"))
 
 def encrypt(plaintext: str, password: str) -> Tuple[bytes, bytes, bytes]:
     """Returns (salt, nonce, ciphertext_with_tag)"""
