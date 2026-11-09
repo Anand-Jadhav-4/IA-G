@@ -7,21 +7,7 @@
 
 
 
-def encrypt(plaintext: str, password: str) -> Tuple[bytes, bytes, bytes]:
-    """Returns (salt, nonce, ciphertext_with_tag)"""
-    salt = os.urandom(SALT_LEN)
-    nonce = os.urandom(NONCE_LEN)
-    key = derive_key(password, salt)
-    aesgcm = AESGCM(key)
-    # AESGCM.encrypt returns ciphertext || tag (tag is appended)
-    ct = aesgcm.encrypt(nonce, plaintext.encode("utf-8"), associated_data=None)
-    return salt, nonce, ct
-
-def decrypt(salt: bytes, nonce: bytes, ct: bytes, password: str) -> str:
-    key = derive_key(password, salt)
-    aesgcm = AESGCM(key)
-    pt = aesgcm.decrypt(nonce, ct, associated_data=None)
-    return pt.decode("utf-8")
+")
 
 def main():
     if len(sys.argv) < 2 or sys.argv[1] not in {"encrypt", "decrypt"}:
